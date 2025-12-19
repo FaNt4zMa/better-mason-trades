@@ -48,11 +48,16 @@ jobs:
             
             ---
             *This release was automatically generated via GitHub Actions*
-          loaders: '["minecraft"]'
+          loaders: '["datapack"]'
           game-versions: |-
             1.21.9
             1.21.10
             1.21.11
+          dependencies: |-
+            [{
+                "project_id": "OClpEDe3",
+                "dependency_type": "required"
+            }]
 
       - name: Bundle datapack as mod
         run: |
@@ -180,5 +185,9 @@ jobs:
           dependencies: |-
             [{
                 "project_id": "P7dR8mSH",
+                "dependency_type": "required"
+            },
+            {
+                "project_id": "OClpEDe3",
                 "dependency_type": "required"
             }]

@@ -10,7 +10,7 @@ permissions:
 env:
   MODRINTH_SLUG: better-mason-trades
   MODRINTH_ID: 2BqALtEV
-  MOD_ID: better-mason-trades
+  MOD_ID: better_mason_trades
   PACK_NAME: Better Mason Trades
   PACK_DESCRIPTION: Adds convenient trades for common building blocks (Tuff, Calcite, Bricks, Mud Bricks, Packed Mud, Terracotta) to the Mason
   LICENSE: MIT

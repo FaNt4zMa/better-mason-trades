@@ -177,7 +177,7 @@ jobs:
           project: ${{ env.MODRINTH_ID }}
           name: ${{ github.event.release.name }}
           files: '["${{ env.MODRINTH_SLUG }}-${{ github.event.release.tag_name }}.jar"]'
-          version: ${{ steps.version.outputs.number }}+mod
+          version: ${{ steps.version.outputs.number }}
           changelog: |
             ${{ github.event.release.body }}
             

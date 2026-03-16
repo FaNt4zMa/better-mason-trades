@@ -1,3 +1,11 @@
+## [1.0.2] - 2026-03-16
+
+### Fixed
+
+- Mod now loads properly for all modloaders
+
+
+
 ## [1.0.1] - 2025-12-23
 
 ### Added

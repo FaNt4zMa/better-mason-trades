@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Create zip from src folder
         run: |
@@ -38,5 +38,4 @@ jobs:
           body: ${{ steps.changelog.outputs.body }}
           files: "Better-Mason-Trades-${{ github.ref_name }}.zip"
           name: "Better Mason Trades ${{ github.ref_name }}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT }}

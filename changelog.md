@@ -1,10 +1,14 @@
+## [1.0.3] - 2026-07-08
+
+### Added
+
+- 26.1 and 26.2 support
+
 ## [1.0.2] - 2026-03-16
 
 ### Fixed
 
 - Mod now loads properly for all modloaders
-
-
 
 ## [1.0.1] - 2025-12-23
 
@@ -15,8 +19,6 @@
 ### Fixed
 
 - 1.21.11 support in `pack.mcmeta`
-
-
 
 ## [1.0.0] - 2025-12-18
 

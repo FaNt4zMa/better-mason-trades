@@ -58,6 +58,8 @@ jobs:
             1.21.9
             1.21.10
             1.21.11
+            26.1
+            26.2
           dependencies: |-
             [{
                 "project_id": "OClpEDe3",
@@ -192,6 +194,8 @@ jobs:
             1.21.9
             1.21.10
             1.21.11
+            26.1
+            26.2
           dependencies: |-
             [{
                 "project_id": "P7dR8mSH",
